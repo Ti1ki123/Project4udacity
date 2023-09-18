@@ -15,4 +15,4 @@ kubectl run project-4-udacity --image="$docker_path/project-4-udacity" --port=80
 kubectl get pods
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward project-4-udacity 8000:80
+kubectl port-forward project-4-udacity 8081:80
