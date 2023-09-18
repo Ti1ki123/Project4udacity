@@ -1,5 +1,5 @@
 # Project4udacity
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Ti1ki123/Project4udacity/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Ti1ki123/Project4udacity/tree/main)
 
 ## Project Overview
 
@@ -45,7 +45,9 @@ source .devops/bin/activate
 
 ### Kubernetes Steps
 
-* Setup and Configure Docker locally
-* Setup and Configure Kubernetes locally
-* Create Flask app in Container
-* Run via kubectl
+* Run python.app to check if an application is running okay?
+* Run ./run_docker.sh to execute the file ./run_docker.sh, with the purpose of building an image and adding a descriptive tag, as well as running the Flask app.
+* Run ./upload_docker.sh to execute the file ./upload_docker.sh for the purpose of authenticating and pushing an image to a Docker repository.
+* Run minikube start to initiate a Minikube instance.
+* Run ./run_kubernetes.sh to execute the file ./run_kubernetes.sh in order to create a deployment and forward the container port to a host.
+* Run ./make_prediction.sh to execute ./make_prediction.sh for accessing a URL and generating an output log for the project.
